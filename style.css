@@ -1,0 +1,83 @@
+
+.header strong{
+    margin-bottom: 0;
+    font-family: cursive;
+}
+.header p{
+    margin-top: 0;
+}
+.brand , .social {
+    display: inline-block;
+    
+}
+hr{
+    margin: 30px 0px;
+    height: 10px;
+    width: 100%;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+.fork{
+
+text-align: center;
+}
+.fork img{
+    position: relative;
+    margin-top: 0;
+    top: -90px;
+
+}
+
+button{
+    background-color: lightsalmon;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5em;
+}
+.footer button {
+    margin-left: 15px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    display: inline;
+}
+.social{
+    position: relative;
+    float: right;
+    
+}
+
+span,span img{
+    position: relative;
+    float: right;
+}
+.header, .content,.footer{
+    margin: 10px 60px;
+    width: 35%;
+}
+.checkbox {
+    background-image: url('https://raw.githubusercontent.com/codefellows/seattle-201d39/master/class-10-js_debugging-wireframe_part_2/lab/lab-assets/list-bg.png')
+}
+.checkbox ul li{
+    list-style-type: square;
+    display: block;
+}
+
+.checkbox .right{
+    margin-left: 90px;
+}
+.checkbox .left, .checkbox .right{
+    
+    display: inline-block;
+}
+.footer .copyright, .footer .published{
+    margin-top: 0px;
+    text-align: center;
+    font-weight: normal;
+    color: #999;
+}
